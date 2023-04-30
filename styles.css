@@ -1,14 +1,24 @@
 body {
+    display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+}
+
+.dark-background {
+    background-color: #1f2937;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #1f2937;
     margin: 0px;
     padding: 0px;
 }
@@ -23,8 +33,13 @@ body {
     display: flex;
     gap: 24px;
     list-style-type: none;
-    font-size: 18px;
-    color: #e5e7eb;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
 }
 
 
