@@ -30,6 +30,10 @@ button {
     color: #e5e7eb;
 }
 
+.dark-text {
+    color:#1f2937
+}
+
 /* header section */
 .header {
     display: flex;
@@ -79,6 +83,44 @@ button {
     text-align: center;
     padding: 100px;
     width: 400px;
+}
+
+/* random info section */
+.random-info {
+    flex: 1;
+}
+
+.random-info-text {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 36px;
+}
+
+.random-info-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+}
+
+img {
+    height: 180px;
+    width: 180px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 6px;
+}
+
+figcaption {
+    text-align: center;
+    color: grey;
+}
+
+.card {
+    flex: 0 1 0;
+    flex-wrap: wrap;
+    margin: 0;    
 }
 
 /* footer section */
