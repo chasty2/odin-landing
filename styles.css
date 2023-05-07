@@ -66,6 +66,7 @@ button {
     justify-content: center;
     align-items: center;
     gap: 36px;
+    padding: 80px;
 }
 
 .hero-text {
@@ -92,6 +93,7 @@ button {
 /* random info section */
 .random-info {
     flex: 1;
+    padding-bottom: 80px;
 }
 
 .random-info-text {
